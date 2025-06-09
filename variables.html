@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <h1 id="heading1"> Hello Everyone</h1>
+        <p id="paragraph1">Everyone</p>
+        <p id="paragraph2"></p>
+        <p id="paragraph3"></p>
+        <p id="paragraph4"></p>
+        <p id="paragraph5"></p>
+        <p id="paragraph6"></p>
+        <p id="paragraph7"></p>
+        <p id="paragraph8"></p>
+
+        <script>
+
+            var text1;
+            var text2;
+            var text3;
+
+            var numA = 6;
+            var numB = 7;
+
+            text1="Hello everyone on planet Earth.";
+            text2="Learning is so much fun!";
+            text3=" Js is awesome";
+
+            document.getElementById("heading1").innerHTML = (text1);
+            document.getElementById("paragraph1").innerHTML = (text2);
+            document.getElementById("paragraph2").innerHTML = (text2 + text3);
+            document.getElementById("paragraph3").innerHTML = (numA + numB) ;
+            document.getElementById("paragraph4").innerHTML = (numA - numB) ;
+            document.getElementById("paragraph5").innerHTML = (numA * numB) ;
+            document.getElementById("paragraph6").innerHTML = ("The answer is:" + numA * numB) ;
+            document.getElementById("paragraph8").innerHTML = (numA + " X " + numB + " = " + numA * numB) ;
+
+
+
+
+        </script>
+
+
+    </body>
+
+</html>
